@@ -1,0 +1,13 @@
+;;; -*- coding: utf-8 -*-
+(("/home/raf/.ido.last" . 3474)
+ ("/home/raf/.recentf" . 1516)
+ ("/home/raf/Development/"
+  (dired-filename . "/home/raf/Development/planza"))
+ ("/home/raf/Development/planza/"
+  (dired-filename . "/home/raf/Development/planza/where"))
+ ("/home/raf/Development/planza/where/"
+  (dired-filename . "/home/raf/Development/planza/where/models"))
+ ("/home/raf/Development/planza/where/models/"
+  (dired-filename . "/home/raf/Development/planza/where/models/cards.js"))
+ ("/home/raf/Development/planza/where/models/cards.js" . 410)
+ ("/home/raf/Development/planza/where/models/matrices.js" . 306))

@@ -36,6 +36,15 @@
 
   (add-hook 'js2-mode-hook (lambda () (setq mode-name "JS2")))
 
+  (add-hook 'js2-mode-hook (lambda () (add-hook 'before-save-hook 'web-beautify-js-buffer t t)))
+
+  (add-hook 'js2-mode-hook (lambda () (tern-mode t)))
+
+  (after-load 'tern
+    (progn
+      (require 'tern-auto-complete)
+      (tern-ac-setup)))
+
   (setq-default
    js2-basic-offset preferred-javascript-indent-level
    js2-bounce-indent-p nil)

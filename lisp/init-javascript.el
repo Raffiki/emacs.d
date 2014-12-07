@@ -1,4 +1,5 @@
 (require-package 'json-mode)
+(require-package 'tern)
 (maybe-require-package 'js2-mode)
 (maybe-require-package 'ac-js2)
 (maybe-require-package 'coffee-mode)
@@ -42,7 +43,7 @@
 
   (after-load 'tern
     (progn
-      (require 'tern-auto-complete)
+      (require-package 'tern-auto-complete)
       (tern-ac-setup)))
 
   (setq-default
